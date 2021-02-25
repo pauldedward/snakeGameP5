@@ -15,10 +15,10 @@ var rows = Math.floor(h / scl);
 function setup()
 {
     col = color(214, 9, 12);
-    eat = loadSound("audio/eat.mp3");
-    die = loadSound("audio/gameover.mp3");
-    cling = loadSound("audio/cling.mp3");
-    drink = loadSound("audio/drink.mp3");
+    eat = loadSound("snakeGameP5/audio/eat.mp3");
+    die = loadSound("snakeGameP5/audio/gameover.mp3");
+    cling = loadSound("snakeGameP5/audio/cling.mp3");
+    drink = loadSound("snakeGameP5/audio/drink.mp3");
     can = createCanvas(w,h);
     can.parent("canvas");
     frameRate(10);
